@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
         circular:true,
         scroll:{
                 items:1,
-                duration:500,
+                duration:300,
                 pauseOnHover:true
         },
         auto:true,
@@ -23,6 +23,8 @@ jQuery(document).ready(function(){
             pageAnchorBuilder:false
         }
     });
+    
+    
     $(window).scroll(function(){
         var top = $(window).scrollTop();
          if(top>=60){
